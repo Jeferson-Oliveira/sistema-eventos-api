@@ -3,7 +3,7 @@
 
 O Projeto consiste em uma plataforma de eventos, onde os usuários poderão visualizar quais eventos estão ocorrendo em sua região,
 além de ser inscrever para eventos futuros, a gerência dos eventos se dará pelos administradores, que farão o cadadastro, exclusão e alteração dos eventos, com seu nome, data, horário de inicio e fim, localização e palestrantes. Os usuários serão notificados quando os eventos estiverem
-prestes a começar, poderão avaliar-los e compartilha-los através de suas redes sociais. Por fim, poderão também imprimir seu certificado.
+prestes a começar, poderão compartilha-los através de suas redes sociais. Por fim, poderão também imprimir seu certificado.
 
 Este projeto foi idealizado para estudo de tecnologias que estão atualmente no mercado.
 
@@ -68,3 +68,7 @@ Funcionalidades:
 		FlatDesign
 		Testes Unitários e Integrados
 		Fastlane(Opcional)
+		
+# Modelo de dados
+![Imagem Modelo de Dados](https://firebasestorage.googleapis.com/v0/b/sistema-eventos-cd35b.appspot.com/o/MER.png?alt=media&token=385c7d83-37e3-4f78-8a7d-3b99d010f811)
+
