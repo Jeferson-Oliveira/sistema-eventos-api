@@ -2,8 +2,10 @@
 # Repositório para API do sistema de eventos
 
 O Projeto consiste em uma plataforma de eventos, onde os usuários poderão visualizar quais eventos estão ocorrendo em sua região,
-além de ser inscrever para eventos futuros, a gerencia dos eventos se dará pelos administradores, que farão o cadadastro, exclusão e alteração dos eventos, com seu nome, data, horário de inicio e fim, localização e palestrantes. Os usuários serão notificados quando os eventos estiverem
-prestes a começar, poderão avaliar-los e compartilha-los através de suas redes sociais.
+além de ser inscrever para eventos futuros, a gerência dos eventos se dará pelos administradores, que farão o cadadastro, exclusão e alteração dos eventos, com seu nome, data, horário de inicio e fim, localização e palestrantes. Os usuários serão notificados quando os eventos estiverem
+prestes a começar, poderão avaliar-los e compartilha-los através de suas redes sociais. Por fim, poderão também imprimir seu certificado.
+
+Este projeto foi idealizado para estudo de tecnologias que estão atualmente no mercado.
 
 
 Atores:
