@@ -70,5 +70,5 @@ Funcionalidades:
 		Fastlane(Opcional)
 		
 # Modelo de dados
-![Imagem Modelo de Dados](https://firebasestorage.googleapis.com/v0/b/sistema-eventos-cd35b.appspot.com/o/MER.png?alt=media&token=385c7d83-37e3-4f78-8a7d-3b99d010f811)
+![Imagem Modelo de Dados](https://firebasestorage.googleapis.com/v0/b/sistema-eventos-cd35b.appspot.com/o/MER.png?alt=media&token=5b59c75a-eb02-4305-959c-f4b4c92342fb)
 
