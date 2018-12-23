@@ -8,41 +8,41 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name="TB_CATEGORIA_EVENTO")
-public class CategoriaEvento implements Serializable {
+@Entity(name="TB_PERFIL")
+public class Perfil implements Serializable {
 
-	private static final long serialVersionUID = 4889679119464666965L;
+	private static final long serialVersionUID = -5461934473814793896L;
 
 	@Id
-	@Column(name="ID_CATEGORIA_EVENTO")
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
-	private Long idCategoriaEvento;
+	@Column(name="ID_PERFIL")
+	private Long idPerfil;
 	
 	@Column(nullable=false, unique=true)
-	private Long codigo;
+	private Integer codigo;
 	
 	@Column(nullable=false, length=50)
 	private String descricao;
 	
-	public CategoriaEvento(Long idCategoriaEvento, Long codigo, String descricao) {
-		this.idCategoriaEvento = idCategoriaEvento;
+	public Perfil(Long idPerfil, Integer codigo, String descricao) {
+		this.idPerfil = idPerfil;
 		this.codigo = codigo;
 		this.descricao = descricao;
 	}
 
-	public Long getIdCategoriaEvento() {
-		return idCategoriaEvento;
+	public Long getIdPerfil() {
+		return idPerfil;
 	}
 
-	public void setIdCategoriaEvento(Long idCategoriaEvento) {
-		this.idCategoriaEvento = idCategoriaEvento;
+	public void setIdPerfil(Long idPerfil) {
+		this.idPerfil = idPerfil;
 	}
 
-	public Long getCodigo() {
+	public Integer getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(Long codigo) {
+	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
 
@@ -53,7 +53,6 @@ public class CategoriaEvento implements Serializable {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
 	
 	
 }
