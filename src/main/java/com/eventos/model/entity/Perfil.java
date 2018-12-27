@@ -14,7 +14,7 @@ public class Perfil implements Serializable {
 	private static final long serialVersionUID = -5461934473814793896L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_PERFIL")
 	private Long idPerfil;
 	

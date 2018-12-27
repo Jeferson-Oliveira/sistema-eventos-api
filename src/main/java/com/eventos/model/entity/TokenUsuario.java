@@ -16,7 +16,7 @@ public class TokenUsuario implements Serializable {
 	private static final long serialVersionUID = 5569183052687298205L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_TOKEN_USUARIO")
 	private Long idTokenUsuario;
 	

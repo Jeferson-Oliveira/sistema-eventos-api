@@ -15,7 +15,7 @@ public class CategoriaEvento implements Serializable {
 
 	@Id
 	@Column(name="ID_CATEGORIA_EVENTO")
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long idCategoriaEvento;
 	
 	@Column(nullable=false, unique=true)

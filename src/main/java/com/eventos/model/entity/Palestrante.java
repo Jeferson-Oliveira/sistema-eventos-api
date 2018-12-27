@@ -17,7 +17,7 @@ public class Palestrante implements Serializable {
 	private static final long serialVersionUID = 5553994221289499873L;
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_PALESTRANTE")
 	private Long idPalestrante;
 	

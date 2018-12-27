@@ -15,7 +15,7 @@ public class LocalizacaoEvento implements Serializable {
 	private static final long serialVersionUID = -459952445100780719L;
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_LOCALIZACAO_EVENTO")
 	private Long idLocalizacaoEvento;
 	

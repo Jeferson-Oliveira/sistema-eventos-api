@@ -16,7 +16,7 @@ public class DispositivoUsuario implements Serializable {
 	private static final long serialVersionUID = 8365114386956439197L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_DISPOSITIVO_USUARIO")
 	private Long idDispositivoUsuario;
 	

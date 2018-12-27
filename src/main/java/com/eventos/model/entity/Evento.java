@@ -23,7 +23,7 @@ public class Evento implements Serializable {
 	private static final long serialVersionUID = 5250063726064066411L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="ID_EVENTO")
 	private Long idEvento;
 	
