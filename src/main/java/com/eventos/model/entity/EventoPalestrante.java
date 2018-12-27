@@ -28,6 +28,10 @@ public class EventoPalestrante implements Serializable {
 	@JoinColumn(name="ID_PALESTRANTE")
 	private Palestrante palestrante;
 
+	public EventoPalestrante() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public EventoPalestrante(Long idEventoPalestrante, Evento evento, Palestrante palestrante) {
 		this.idEventoPalestrante = idEventoPalestrante;
 		this.evento = evento;

@@ -27,6 +27,9 @@ public class DispositivoUsuario implements Serializable {
 	@Column(name="TOKEN_DISPOSITIVO", nullable=false, length=500)
 	private String tokenDispositivo;
 
+	public DispositivoUsuario() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	public DispositivoUsuario(Long idDispositivoUsuario, Usuario usuario, String tokenDispositivo) {
 		this.idDispositivoUsuario = idDispositivoUsuario;

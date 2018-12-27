@@ -39,6 +39,10 @@ public class Usuario implements Serializable {
 	@OneToMany(mappedBy="usuario")
 	private List<TokenUsuario> tokens = new ArrayList<>();
 	
+	public Usuario() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Usuario(Long idUsuario, Perfil perfil, String email, String senha) {
 		this.idUsuario = idUsuario;
 		this.perfil = perfil;

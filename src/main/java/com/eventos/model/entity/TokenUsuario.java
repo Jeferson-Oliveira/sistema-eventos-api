@@ -30,6 +30,10 @@ public class TokenUsuario implements Serializable {
 	@Column(nullable=false)
 	private Long expirity;
 
+	public TokenUsuario() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public TokenUsuario(Long idTokenUsuario, Usuario usuario, String token, Long expirity) {
 		this.idTokenUsuario = idTokenUsuario;
 		this.usuario = usuario;

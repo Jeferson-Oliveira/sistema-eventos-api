@@ -24,6 +24,10 @@ public class CategoriaEvento implements Serializable {
 	@Column(nullable=false, length=50)
 	private String descricao;
 	
+	public CategoriaEvento() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public CategoriaEvento(Long idCategoriaEvento, Long codigo, String descricao) {
 		this.idCategoriaEvento = idCategoriaEvento;
 		this.codigo = codigo;

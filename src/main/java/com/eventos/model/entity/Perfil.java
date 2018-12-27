@@ -19,12 +19,16 @@ public class Perfil implements Serializable {
 	private Long idPerfil;
 	
 	@Column(nullable=false, unique=true)
-	private Integer codigo;
+	private Long codigo;
 	
 	@Column(nullable=false, length=50)
 	private String descricao;
 	
-	public Perfil(Long idPerfil, Integer codigo, String descricao) {
+	public Perfil() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Perfil(Long idPerfil, Long codigo, String descricao) {
 		this.idPerfil = idPerfil;
 		this.codigo = codigo;
 		this.descricao = descricao;
@@ -38,11 +42,11 @@ public class Perfil implements Serializable {
 		this.idPerfil = idPerfil;
 	}
 
-	public Integer getCodigo() {
+	public Long getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(Integer codigo) {
+	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
 

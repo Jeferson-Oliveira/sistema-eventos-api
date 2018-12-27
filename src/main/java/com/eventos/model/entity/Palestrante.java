@@ -33,6 +33,10 @@ public class Palestrante implements Serializable {
 	@OneToMany(mappedBy="palestrante")
 	private List<EventoPalestrante> eventos = new ArrayList<>();
 	
+	public Palestrante() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Palestrante(Long idPalestrante, String urlFoto, String nome, String descricao) {
 		this.idPalestrante = idPalestrante;
 		this.urlFoto = urlFoto;

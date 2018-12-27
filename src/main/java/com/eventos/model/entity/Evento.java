@@ -52,6 +52,10 @@ public class Evento implements Serializable {
 	@OneToMany(mappedBy="palestrante")
 	private List<EventoPalestrante> palestrantes = new ArrayList<>();
 	
+	public Evento() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Evento(Long idEvento, CategoriaEvento categoria, LocalizacaoEvento localizacao, String titulo,
 			String descricao, Date dataInicio, Date dataFim) {
 		this.idEvento = idEvento;

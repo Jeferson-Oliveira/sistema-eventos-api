@@ -28,6 +28,10 @@ public class LocalizacaoEvento implements Serializable {
 	@Column(nullable=false, length=500)
 	private String descricao;
 
+	public LocalizacaoEvento() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public LocalizacaoEvento(Long idLocalizacaoEvento, BigDecimal latitude, BigDecimal longitude, String descricao) {
 		this.idLocalizacaoEvento = idLocalizacaoEvento;
 		this.latitude = latitude;
